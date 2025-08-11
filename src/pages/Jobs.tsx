@@ -111,8 +111,8 @@ const Jobs = () => {
        job.company.toLowerCase().includes(searchQuery.toLowerCase()) ||
        job.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))) &&
       (locationFilter === "" || job.location.toLowerCase().includes(locationFilter.toLowerCase())) &&
-      (experienceFilter === "" || job.experience === experienceFilter) &&
-      (typeFilter === "" || job.type === typeFilter)
+      (experienceFilter === "" || experienceFilter === "all" || job.experience === experienceFilter) &&
+      (typeFilter === "" || typeFilter === "all" || job.type === typeFilter)
     );
   });
 
@@ -154,7 +154,7 @@ const Jobs = () => {
                   <SelectValue placeholder="Experience Level" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Levels</SelectItem>
+                  <SelectItem value="all">All Levels</SelectItem>
                   <SelectItem value="Junior">Junior</SelectItem>
                   <SelectItem value="Mid-level">Mid-level</SelectItem>
                   <SelectItem value="Senior">Senior</SelectItem>
@@ -165,7 +165,7 @@ const Jobs = () => {
                   <SelectValue placeholder="Job Type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Types</SelectItem>
+                  <SelectItem value="all">All Types</SelectItem>
                   <SelectItem value="Full-time">Full-time</SelectItem>
                   <SelectItem value="Part-time">Part-time</SelectItem>
                   <SelectItem value="Contract">Contract</SelectItem>
@@ -279,8 +279,8 @@ const Jobs = () => {
                 onClick={() => {
                   setSearchQuery("");
                   setLocationFilter("");
-                  setExperienceFilter("");
-                  setTypeFilter("");
+                  setExperienceFilter("all");
+                  setTypeFilter("all");
                 }}
               >
                 Clear Filters
