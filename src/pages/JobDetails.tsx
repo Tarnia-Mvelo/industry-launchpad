@@ -14,15 +14,15 @@ const JobDetails = () => {
   const job = {
     id: 1,
     title: "Senior React Developer",
-    company: "TechFlow Inc",
-    location: "San Francisco, CA",
+    company: "Takealot Tech",
+    location: "Cape Town, WC",
     type: "Full-time",
     experience: "Senior",
-    salary: "$120k - $160k",
+    salary: "R900k - R1.2M",
     posted: "2 days ago",
     remote: true,
     featured: true,
-    description: `We are looking for a Senior React Developer to join our dynamic team and help build the next generation of web applications. You'll work on cutting-edge projects using the latest technologies and best practices.`,
+    description: `We are looking for a Senior React Developer to join our dynamic team at South Africa's leading e-commerce platform. You'll help build the next generation of web applications that serve millions of customers across the country.`,
     responsibilities: [
       "Develop and maintain high-quality React applications using TypeScript",
       "Collaborate with designers and backend engineers to implement new features",
@@ -49,22 +49,22 @@ const JobDetails = () => {
     ],
     benefits: [
       "Competitive salary and equity package",
-      "Comprehensive health, dental, and vision insurance",
+      "Comprehensive medical aid and Gap Cover",
       "Unlimited PTO and flexible working hours",
       "Remote work opportunities",
-      "$2000 annual learning and development budget",
+      "R30,000 annual learning and development budget",
       "Latest MacBook Pro and equipment allowance",
-      "Catered meals and snacks in office",
-      "Team building events and company retreats"
+      "Monthly lunches and team building events",
+      "Annual company retreats in scenic SA locations"
     ],
     tags: ["React", "TypeScript", "Next.js", "GraphQL", "AWS"],
     companyInfo: {
-      name: "TechFlow Inc",
-      size: "50-100 employees",
-      industry: "Software Development",
-      founded: "2018",
-      description: "TechFlow Inc is a fast-growing startup building innovative web applications for enterprise clients. We're passionate about creating exceptional user experiences and maintaining high code quality.",
-      website: "https://techflow.com",
+      name: "Takealot Tech",
+      size: "500+ employees",
+      industry: "E-commerce & Technology",
+      founded: "2011",
+      description: "Takealot is South Africa's leading online retailer, serving millions of customers across the country. Our tech team builds and maintains the platform that powers the future of South African e-commerce.",
+      website: "https://takealot.com",
       logo: "🚀"
     }
   };
@@ -73,23 +73,23 @@ const JobDetails = () => {
     {
       id: 2,
       title: "Frontend Engineer",
-      company: "WebCraft Labs",
-      salary: "$90k - $120k",
-      location: "Remote"
+      company: "Capitec Bank",
+      salary: "R700k - R900k",
+      location: "Stellenbosch, WC"
     },
     {
       id: 3,
       title: "React Native Developer",
-      company: "MobileFirst",
-      salary: "$100k - $130k",
-      location: "Austin, TX"
+      company: "22Seven",
+      salary: "R650k - R850k",
+      location: "Cape Town, WC"
     },
     {
       id: 4,
       title: "Full Stack Developer",
-      company: "CodeCraft Solutions",
-      salary: "$95k - $125k",
-      location: "Seattle, WA"
+      company: "Yoco",
+      salary: "R700k - R900k",
+      location: "Cape Town, WC"
     }
   ];
 
