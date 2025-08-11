@@ -27,7 +27,7 @@ const Header = () => {
               <Briefcase className="w-5 h-5 text-primary" />
             </div>
             <span className="text-xl font-bold text-primary">
-              Tech<span className="gradient-text">Careers</span> Pro
+              Tarnia <span className="gradient-text">Dream</span> Careers
             </span>
           </Link>
 

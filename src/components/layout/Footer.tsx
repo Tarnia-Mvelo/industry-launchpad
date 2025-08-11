@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 py-6 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 TechCareers Pro. All rights reserved.
+            © 2024 Tarnia Dream Careers. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <Link
